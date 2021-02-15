@@ -20,6 +20,7 @@ taro build --type weapp --watch
 ```
 然后打开微信小程序开发者工具, 选择项目根目录编译即可 
 ## 目录结构
+```
 ├── dist                   编译结果目录
 ├── config                 配置目录
 |   ├── dev.js             开发时配置
@@ -40,7 +41,7 @@ taro build --type weapp --watch
 |   |   └── axios.ts       使用类axios语法封装网络请求
 |   └── server             网络请求目录
 └── package.json
-
+```
 ## 在线预览
 这里是二维码
 ## 使用微信开发者工具注意事项
