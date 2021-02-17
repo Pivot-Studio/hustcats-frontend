@@ -1,14 +1,18 @@
 # 华科猫可梦(HUSTCATS)
 基于Taro3开发的微信小程序, 是一个聚焦华科校园里的喵星人，编写猫咪图鉴，建立猫咪科普、救助的平台。
 ## 安装
+### 克隆本仓库
+```
+git clone https://github.com/Pivot-Studio/hustcats-frontend.git 
+```
 ### 安装 Taro 开发工具 @tarojs/cli
 ```javascript
 # 使用 npm 安装 CLI
-$ npm install -g @tarojs/cli
+npm install -g @tarojs/cli
 # OR 使用 yarn 安装 CLI
-$ yarn global add @tarojs/cli
+yarn global add @tarojs/cli
 # OR 安装了 cnpm，使用 cnpm 安装 CLI
-$ cnpm install -g @tarojs/cli
+cnpm install -g @tarojs/cli
 ```
 ### 安装依赖
 ```
@@ -38,7 +42,7 @@ taro build --type weapp --watch
 |   |   └── styles         公共scss目录
 |   ├── components         组件目录
 |   ├── utils              工具函数目录
-|   |   └── axios.ts       使用类axios语法封装网络请求
+|   |   └── request.ts     封装网络请求
 |   └── server             网络请求目录
 └── package.json
 ```
