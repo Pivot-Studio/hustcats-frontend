@@ -43,7 +43,7 @@ taro build --type weapp --watch
 |   ├── components         组件目录
 |   ├── utils              工具函数目录
 |   |   └── request.ts     封装网络请求
-|   └── server             网络请求目录
+|   └── service             网络请求目录
 └── package.json
 ```
 ## 在线预览
